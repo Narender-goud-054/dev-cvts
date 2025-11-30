@@ -5,7 +5,7 @@ import { day1Data, day2Data } from './programmeData';
 
 const ScientificProgramme = () => {
   return (
-    <section id="scientificProgramme" className="py-20 bg-gradient-to-b from-white to-gray-50">
+    <section id="scientificProgramme" className="scroll-mt-12 bg-gradient-to-b from-white to-gray-50">
     <div className="container">
       <div>
         <h1 className="tb-h1">Scientific Programme<br />Day 1 <br />FOUNDATIONS & CRITICAL CARE MASTERY</h1>

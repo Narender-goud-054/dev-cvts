@@ -11,6 +11,7 @@ import Abstract from './components/Abstract/Abstract';
 import Gallery from './components/Gallery/Gallery';
 import AboutMumbai from './components/AboutMumbai/AboutMumbai';
 import Footer from './components/Footer/Footer';
+import ScientificProgramme from './components/ScientificProgramme/ScientificProgramme';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Venue />
       <RegistrationPackages />
       <Milestones />
+      <ScientificProgramme/>
       <Abstract />
       <Gallery />
       <AboutMumbai />

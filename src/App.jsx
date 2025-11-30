@@ -9,7 +9,7 @@ import RegistrationPackages from './components/RegistrationPackages/Registration
 import Milestones from './components/Milestones/Milestones';
 import Abstract from './components/Abstract/Abstract';
 import Gallery from './components/Gallery/Gallery';
-import AboutMumbai from './components/AboutMumbai/AboutMumbai';
+import AboutHyderabad from './components/AboutHyderabad/AboutHyderabad';
 import Footer from './components/Footer/Footer';
 import ScientificProgramme from './components/ScientificProgramme/ScientificProgramme';
 
@@ -27,7 +27,7 @@ function App() {
       <ScientificProgramme/>
       <Abstract />
       <Gallery />
-      <AboutMumbai />
+      <AboutHyderabad />
       <Footer />
     </div>
   );

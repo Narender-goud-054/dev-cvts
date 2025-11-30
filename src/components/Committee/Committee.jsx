@@ -5,27 +5,27 @@ const Committee = () => {
     {
       name: 'Dr. Anvay Mulay',
       position: 'Organising Chairman',
-      image: '/images/committee/duoclose.jpg'
+      image: './images/committee/duoclose.jpg'
     },
     {
       name: 'Dr. Bijoy Kutty',
       position: 'Organising Secretary',
-      image: '/images/committee/Bejoy-Kutty.png'
+      image: './images/committee/Bejoy-Kutty.png'
     },
     {
       name: 'Dr. Zainul Hamdulay',
       position: 'Organising Secretary',
-      image: '/images/committee/Zainul-Hamdulay.png'
+      image: './images/committee/Zainul-Hamdulay.png'
     },
     {
       name: 'Dr. Neeraj Kamat',
       position: 'Treasurer',
-      image: '/images/committee/Neeraj-Kamat.png'
+      image: './images/committee/Neeraj-Kamat.png'
     },
     {
       name: 'Dr. Sandeep Sinha',
       position: 'General Manager',
-      image: '/images/committee/Sandeep-Sinha.png'
+      image: './images/committee/Sandeep-Sinha.png'
     }
   ];
 

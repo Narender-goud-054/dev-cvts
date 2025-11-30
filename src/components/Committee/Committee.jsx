@@ -15,12 +15,12 @@ const Committee = () => {
     {
       name: 'Dr. Zainul Hamdulay',
       position: 'Organising Secretary',
-      image: './images/committee/Zainul-Hamdulay.png'
+      image: './images/committee/OrganisingSecretary.jpg'
     },
     {
       name: 'Dr. Neeraj Kamat',
       position: 'Treasurer',
-      image: './images/committee/Neeraj-Kamat.png'
+      image: './images/committee/Treasurer.jpg'
     },
     {
       name: 'Dr. Sandeep Sinha',

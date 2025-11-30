@@ -21,7 +21,7 @@ const Milestones = () => {
   ];
 
   return (
-    <section id="program" className="py-20 bg-gradient-to-b from-white to-gray-50">
+    <section id="milestones" className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container-custom">
         <h2 className="section-title">NIMS CVTS Milestones & Evolution</h2>
         

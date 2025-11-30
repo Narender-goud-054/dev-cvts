@@ -69,7 +69,7 @@ const Navigation = () => {
         { name: 'Guidelines', href: '#abstract-guidelines' }
       ]
     },
-    { name: 'SCIENTIFIC PROGRAMME', href: '#program' },
+    { name: 'SCIENTIFIC PROGRAMME', href: '#scientificProgramme' },
     { 
       name: 'GALLERY', 
       href: '#gallery',
@@ -79,7 +79,7 @@ const Navigation = () => {
         { name: 'Video Gallery', href: '#videos' }
       ]
     },
-    { name: 'ABOUT US', href: '#about' }
+    { name: 'ABOUT US', href: '#milestones' }
   ];
 
   return (

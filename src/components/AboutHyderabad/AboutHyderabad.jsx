@@ -54,6 +54,7 @@ const AboutHyderabad = () => {
         </div>
 
         {/* History Section */}
+        <section id="history-NIMS" className="py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="mt-16 bg-gradient-to-r from-blue-50 to-red-50 rounded-2xl p-8 md:p-12">
           <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
             History of the <br/>Nizam Institute of Medical Sciences <br/> CardioVascular-Thoracic Surgeons (NIMS CVTS)
@@ -70,6 +71,7 @@ const AboutHyderabad = () => {
             contributed significantly to improving patient outcomes across the nation.
           </p>
         </div>
+        </section>
       </div>
     </section>
   );

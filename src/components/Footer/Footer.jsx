@@ -5,7 +5,7 @@ const Footer = () => {
   const usefulLinks = [
     { name: 'Home', href: '#home' },
     { name: 'Registration', href: '#registration' },
-    { name: 'About Mumbai', href: '#mumbai' },
+    { name: 'About Hyderabad', href: '#hyderabad' },
     { name: 'Venue', href: '#venue' },
     { name: 'Committee', href: '#committee' }
   ];
@@ -17,17 +17,17 @@ const Footer = () => {
           {/* About Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <span className="text-3xl font-bold">IACTS</span>
+              <span className="text-3xl font-bold">NIMS CVTS</span>
               <span className="text-2xl font-semibold text-red-400">2026</span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6">
-              IACTS 2026 will be a premier gathering of global cardiothoracic experts at Jio World Convention Centre, 
-              Mumbai. The conference will feature advanced scientific sessions, innovative surgical techniques, and 
+              NIMS CVTS 2026 will be a premier gathering of global cardiothoracic experts at Trauma Auditorium NIMS, 
+              Hyderabad. The conference will feature advanced scientific sessions, innovative surgical techniques, and 
               discussions shaping the future of cardiac care. A special highlight will be the recognition of Indian 
               surgeons making a global impact.
             </p>
             <p className="text-gray-400 text-sm">
-              Organized by Dr. Bijoy Kutty, Dr. Zainul Hamdulay, and Team Mumbai
+              Organized by Dr. Pooja, and Team
             </p>
           </div>
 
@@ -71,16 +71,16 @@ const Footer = () => {
               <div className="flex items-start">
                 <FaMapMarkerAlt className="text-red-400 mt-1 mr-3 flex-shrink-0" />
                 <p className="text-gray-300 text-sm">
-                  Kohinoor Square Phase I, B Wing, Office No. 1004, 10th Floor, N. C. Kelkar Road, 
-                  Shivaji Park, Dadar West, Mumbai 400 028
+                  Nizam's Institute of Medical Sciences
+                  Punjagutta, Hyderabad - 500082, Telangana, INDIA.
                 </p>
               </div>
 
               <div className="flex items-center">
                 <FaPhone className="text-red-400 mr-3" />
                 <div className="text-gray-300 text-sm">
-                  <p>022-35406187, 022-35106391</p>
-                  <p>022-35406576, 022-35406579</p>
+                  <p>+91-40-23489000,+91-40-23396552</p>
+                  <p>+91-40-23489244,+91-40-23489245</p>
                 </div>
               </div>
 
@@ -132,16 +132,16 @@ const Footer = () => {
             </div>
 
             <div className="text-gray-400 text-sm text-center md:text-right">
-              <p>© Copyright by IACTSCON 2026. All Rights Reserved.</p>
+              <p>© Copyright by NIMS CVTS 2026. All Rights Reserved.</p>
               <p className="mt-2">
                 Design & Developed by{' '}
                 <a 
-                  href="https://cminds.in/" 
+                  href=" " 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-red-400 hover:text-red-300 transition-colors"
                 >
-                  Creative Minds
+                  Dev2Dev
                 </a>
               </p>
             </div>

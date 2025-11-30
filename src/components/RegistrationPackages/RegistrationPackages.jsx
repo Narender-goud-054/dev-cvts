@@ -4,21 +4,21 @@ import { FaCheckCircle } from 'react-icons/fa';
 const RegistrationPackages = () => {
   const packages = [
     {
-      title: 'IACTS Member',
+      title: 'CVTS Member',
       price: '₹ 00,000',
       category: 'NON RESIDENTIAL PACKAGE',
       deadline: 'Early Bird Till 30th November 2025',
       type: 'member'
     },
     {
-      title: 'IACTS Non Member',
+      title: 'CVTS Non Member',
       price: '₹ 00,000',
       category: 'NON RESIDENTIAL PACKAGE',
       deadline: 'Early Bird Till 30th November 2025',
       type: 'non-member'
     },
     {
-      title: 'Student/Trainee IACTS Member & Non Member',
+      title: 'Student/Trainee CVTS Member & Non Member',
       price: '₹ 00,000',
       category: 'NON RESIDENTIAL PACKAGE',
       deadline: 'Early Bird Till 30th November 2025',

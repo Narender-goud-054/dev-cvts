@@ -34,7 +34,7 @@ const Committee = () => {
       <div className="container-custom">
         <h2 className="section-title">Organising Committee</h2>
         <p className="section-subtitle">
-          Meet the distinguished team organizing IACTS 2026
+          Meet the distinguished team organizing CVTS 2026
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">

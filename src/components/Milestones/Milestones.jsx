@@ -23,11 +23,11 @@ const Milestones = () => {
   return (
     <section id="program" className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container-custom">
-        <h2 className="section-title">IACTS Milestones & Evolution</h2>
+        <h2 className="section-title">NIMS CVTS Milestones & Evolution</h2>
         
         <div className="max-w-4xl mx-auto mb-12">
           <p className="text-lg text-gray-700 leading-relaxed text-center">
-            The Indian Association of Cardiovascular-Thoracic Surgeons (IACTS) has a rich history marked by significant 
+            The Nizam Institute of Medical Sciences (NIMS) CVTS has a rich history marked by significant 
             milestones and landmark resolutions that have shaped the field of cardiothoracic surgery in India.
           </p>
         </div>

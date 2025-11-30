@@ -6,12 +6,12 @@ const Venue = () => {
     {
       icon: <FaTrain className="text-4xl text-blue-600" />,
       title: 'By Train',
-      description: 'Take a train to Bandra or Kurla station, then an auto or taxi to Jio World Convention Centre, BKC.'
+      description: 'Take a train to Secunderabad or Begumpet station, then take metro rail to Irrum Manzil. Walk 300 m from Irrum Mazil metro '
     },
     {
       icon: <FaBus className="text-4xl text-red-600" />,
       title: 'By Bus',
-      description: 'Take BEST buses like 187, 189, or C-505, which connect to Bandra Kurla Complex (BKC), and alight near the Jio World Convention Centre.'
+      description: "Don't take Hyderabad buses, you will be stuck in Traffic"
     }
   ];
 
@@ -46,19 +46,18 @@ const Venue = () => {
                 <div>
                   <p className="text-sm font-semibold text-gray-600 mb-2">Event Venue</p>
                   <h3 className="text-3xl font-bold text-gray-800 mb-4">
-                    Jio World Convention Centre
+                    Trauma Auditorium, NIMS
                   </h3>
                 </div>
               </div>
               
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                G Block, Bandra Kurla Complex, Mumbai 400 098, Maharashtra, India
+                  Panjagutta Market, Panjagutta, Hyderabad 500 082, Telangana, India
               </p>
 
               <div className="border-t border-gray-300 pt-6">
                 <p className="text-gray-700 leading-relaxed">
-                  Located in the heart of Bandra Kurla Complex (BKC), Jio World Convention Centre is India's premier 
-                  venue for world-class events, exhibitions, and conferences.
+                  Located in the heart of NIMS Hospital, where legends meet for CVTS BootCamp 2026.
                 </p>
               </div>
             </div>
@@ -100,12 +99,12 @@ const Venue = () => {
                   World-Class Infrastructure
                 </h4>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Jio World Convention Centre offers state-of-the-art facilities with modern amenities, 
+                  NIMS Trauma Auditorium offers state-of-the-art facilities with modern amenities, 
                   making it the ideal location for international conferences.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
                   Experience seamless connectivity, cutting-edge technology, and exceptional hospitality 
-                  in Mumbai's premier business district.
+                  in Hyderabad.
                 </p>
               </div>
             </div>

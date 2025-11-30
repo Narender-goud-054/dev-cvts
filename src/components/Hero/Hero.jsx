@@ -55,7 +55,7 @@ const Hero = () => {
               onError={(e) => {
                 e.target.onerror = null;
                 e.target.style.display = 'none';
-                e.target.parentElement.innerHTML = '<div class="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center"><span class="text-4xl font-bold">IACTS</span></div>';
+                e.target.parentElement.innerHTML = '<div class="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center"><span class="text-4xl font-bold">CVTS</span></div>';
               }}
             />
           </div>
@@ -71,7 +71,7 @@ const Hero = () => {
         </p>
 
         <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto animate-fade-in-up">
-          24th - 25th January 2026 | Jio World Convention Centre
+          24th - 25th January 2026 | Trauma Auditorium, NIMS
         </p>
 
         {/* Countdown Timer */}

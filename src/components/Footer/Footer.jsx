@@ -1,0 +1,155 @@
+import React from 'react';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+
+const Footer = () => {
+  const usefulLinks = [
+    { name: 'Home', href: '#home' },
+    { name: 'Registration', href: '#registration' },
+    { name: 'About Mumbai', href: '#mumbai' },
+    { name: 'Venue', href: '#venue' },
+    { name: 'Committee', href: '#committee' }
+  ];
+
+  return (
+    <footer id="contact" className="bg-gradient-to-br from-blue-900 via-blue-800 to-gray-900 text-white">
+      <div className="container-custom py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          {/* About Section */}
+          <div className="lg:col-span-2">
+            <div className="flex items-center space-x-2 mb-6">
+              <span className="text-3xl font-bold">IACTS</span>
+              <span className="text-2xl font-semibold text-red-400">2026</span>
+            </div>
+            <p className="text-gray-300 leading-relaxed mb-6">
+              IACTS 2026 will be a premier gathering of global cardiothoracic experts at Jio World Convention Centre, 
+              Mumbai. The conference will feature advanced scientific sessions, innovative surgical techniques, and 
+              discussions shaping the future of cardiac care. A special highlight will be the recognition of Indian 
+              surgeons making a global impact.
+            </p>
+            <p className="text-gray-400 text-sm">
+              Organized by Dr. Bijoy Kutty, Dr. Zainul Hamdulay, and Team Mumbai
+            </p>
+          </div>
+
+          {/* Useful Links */}
+          <div>
+            <h3 className="text-xl font-bold mb-6">Useful Links</h3>
+            <ul className="space-y-3">
+              {usefulLinks.map((link) => (
+                <li key={link.name}>
+                  <a 
+                    href={link.href} 
+                    className="text-gray-300 hover:text-red-400 transition-colors duration-300 flex items-center"
+                  >
+                    <span className="mr-2">›</span>
+                    {link.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Conference Secretariat */}
+          <div>
+            <h3 className="text-xl font-bold mb-6">Conference Secretariat</h3>
+            
+            {/* Vama Logo */}
+            <div className="bg-white/10 rounded-lg p-4 mb-6">
+              <img 
+                src="/images/logos/vama-logo.png" 
+                alt="VAMA Events"
+                className="h-12 object-contain mx-auto"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.style.display = 'none';
+                  e.target.parentElement.innerHTML = '<div class="h-12 flex items-center justify-center"><span class="text-sm">VAMA Events</span></div>';
+                }}
+              />
+            </div>
+
+            <div className="space-y-4">
+              <div className="flex items-start">
+                <FaMapMarkerAlt className="text-red-400 mt-1 mr-3 flex-shrink-0" />
+                <p className="text-gray-300 text-sm">
+                  Kohinoor Square Phase I, B Wing, Office No. 1004, 10th Floor, N. C. Kelkar Road, 
+                  Shivaji Park, Dadar West, Mumbai 400 028
+                </p>
+              </div>
+
+              <div className="flex items-center">
+                <FaPhone className="text-red-400 mr-3" />
+                <div className="text-gray-300 text-sm">
+                  <p>022-35406187, 022-35106391</p>
+                  <p>022-35406576, 022-35406579</p>
+                </div>
+              </div>
+
+              <div className="flex items-center">
+                <FaEnvelope className="text-red-400 mr-3" />
+                <a 
+                  href="mailto:conferences@vamaevents.com" 
+                  className="text-gray-300 hover:text-red-400 transition-colors text-sm"
+                >
+                  conferences@vamaevents.com
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Social Media */}
+        <div className="mt-12 pt-8 border-t border-gray-700">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="flex space-x-6 mb-6 md:mb-0">
+              <a 
+                href="#" 
+                className="text-gray-300 hover:text-red-400 transition-colors duration-300"
+                aria-label="Facebook"
+              >
+                <FaFacebook size={24} />
+              </a>
+              <a 
+                href="#" 
+                className="text-gray-300 hover:text-red-400 transition-colors duration-300"
+                aria-label="Twitter"
+              >
+                <FaTwitter size={24} />
+              </a>
+              <a 
+                href="#" 
+                className="text-gray-300 hover:text-red-400 transition-colors duration-300"
+                aria-label="LinkedIn"
+              >
+                <FaLinkedin size={24} />
+              </a>
+              <a 
+                href="#" 
+                className="text-gray-300 hover:text-red-400 transition-colors duration-300"
+                aria-label="Instagram"
+              >
+                <FaInstagram size={24} />
+              </a>
+            </div>
+
+            <div className="text-gray-400 text-sm text-center md:text-right">
+              <p>© Copyright by IACTSCON 2026. All Rights Reserved.</p>
+              <p className="mt-2">
+                Design & Developed by{' '}
+                <a 
+                  href="https://cminds.in/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-red-400 hover:text-red-300 transition-colors"
+                >
+                  Creative Minds
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

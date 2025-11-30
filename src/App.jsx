@@ -1,0 +1,34 @@
+import React from 'react';
+import Navigation from './components/Navigation/Navigation';
+import Hero from './components/Hero/Hero';
+import Collaboration from './components/Collaboration/Collaboration';
+import WelcomeMessage from './components/WelcomeMessage/WelcomeMessage';
+import Committee from './components/Committee/Committee';
+import Venue from './components/Venue/Venue';
+import RegistrationPackages from './components/RegistrationPackages/RegistrationPackages';
+import Milestones from './components/Milestones/Milestones';
+import Abstract from './components/Abstract/Abstract';
+import Gallery from './components/Gallery/Gallery';
+import AboutMumbai from './components/AboutMumbai/AboutMumbai';
+import Footer from './components/Footer/Footer';
+
+function App() {
+  return (
+    <div className="App">
+      <Navigation />
+      <Hero />
+      <Collaboration />
+      <WelcomeMessage />
+      <Committee />
+      <Venue />
+      <RegistrationPackages />
+      <Milestones />
+      <Abstract />
+      <Gallery />
+      <AboutMumbai />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;

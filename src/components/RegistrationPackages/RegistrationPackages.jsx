@@ -96,7 +96,7 @@ const RegistrationPackages = () => {
                 </div>
 
                 <a 
-                  href="https://forms.gle/gFwT6oJf8fbKW9mE6" 
+                  href="https://forms.gle/PE4d5BJago9kuSnJ6" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-primary w-full text-center"

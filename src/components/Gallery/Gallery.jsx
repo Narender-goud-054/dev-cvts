@@ -1,8 +1,47 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import Video from './Video';
 import { FaImage, FaVideo, FaPlay } from 'react-icons/fa';
+import  Photo from './Photo';
 
 const Gallery = () => {
   const [activeTab, setActiveTab] = useState('photos');
+
+  // Keep gallery in sync with URL hash so navigation links like
+  // `#videos` will switch tab and scroll the videos section into view.
+  useEffect(() => {
+    const applyHash = () => {
+      const hash = (window.location.hash || '').replace('#', '').toLowerCase();
+      if (hash === 'videos' || hash === 'photos') {
+        setActiveTab(hash);
+      }
+    };
+
+    // Apply on mount
+    applyHash();
+
+    // Listen for future hash changes
+    window.addEventListener('hashchange', applyHash);
+    return () => window.removeEventListener('hashchange', applyHash);
+  }, []);
+
+  const GALLERY_HASHES = ['#photos', '#videos'];
+  const isInitialLoad = useRef(true);
+  // When activeTab changes, attempt to scroll the corresponding element
+  // into view (smooth). The element is conditionally rendered so this
+  // runs after render and will find the element.
+  useEffect(() => {
+    if (isInitialLoad.current) {
+      isInitialLoad.current = false;
+      return; // Do not scroll on initial page load
+    }
+    const hash = window.location.hash.toLowerCase();
+    if (!GALLERY_HASHES.includes(hash)) return;
+   // const id = activeTab === 'videos' ? 'videos' : 'photos';
+    const el = document.getElementById(activeTab);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [activeTab]);
 
   const photoGallery = [
     { id: 1, title: 'Conference Hall', src: '/images/gallery/photo1.jpg' },
@@ -14,9 +53,9 @@ const Gallery = () => {
   ];
 
   const videoGallery = [
-    { id: 1, title: 'Conference Highlights 2024', thumbnail: '/images/gallery/video1.jpg', url: '#' },
-    { id: 2, title: 'Surgical Techniques Workshop', thumbnail: '/images/gallery/video2.jpg', url: '#' },
-    { id: 3, title: 'Expert Panel Discussion', thumbnail: '/images/gallery/video3.jpg', url: '#' }
+    { id: 1, title: 'Conference Highlights 2024', thumbnail: './images/logos/cvts-logo.jpg', url: 'https://www.youtube.com/embed/Y-W-w8yNiKU?si=5SvxZ5yXisdgrDFk' },
+    { id: 2, title: 'Surgical Techniques Workshop', thumbnail: './images/logos/cvts-logo.jpg', url: 'https://www.youtube.com/embed/Y-W-w8yNiKU?si=5SvxZ5yXisdgrDFk' },
+    { id: 3, title: 'Expert Panel Discussion', thumbnail: './images/logos/cvts-logo.jpg', url: 'https://www.youtube.com/embed/Y-W-w8yNiKU?si=5SvxZ5yXisdgrDFk' }
   ];
 
   return (
@@ -59,27 +98,9 @@ const Gallery = () => {
         {activeTab === 'photos' && (
           <div id="photos" className="animate-fade-in">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {photoGallery.map((photo) => (
-                <div
-                  key={photo.id}
-                  className="group relative aspect-video bg-gradient-to-br from-blue-200 to-orange-200 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 cursor-pointer"
-                >
-                  <img
-                    src={photo.src}
-                    alt={photo.title}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.parentElement.innerHTML = `<div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-200 to-orange-200"><span class="text-gray-600 font-medium">${photo.title}</span></div>`;
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                    <div className="p-4 w-full">
-                      <h3 className="text-white font-bold text-lg">{photo.title}</h3>
-                    </div>
-                  </div>
-                </div>
-              ))}
+              {
+                photoGallery.map((photo) => (<Photo key={photo.id} photo={photo}/>))
+              }
             </div>
 
             <div className="text-center mt-12">
@@ -95,30 +116,7 @@ const Gallery = () => {
           <div id="videos" className="animate-fade-in">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {videoGallery.map((video) => (
-                <div
-                  key={video.id}
-                  className="group relative bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 cursor-pointer"
-                >
-                  <div className="relative aspect-video bg-gradient-to-br from-blue-200 to-orange-200">
-                    <img
-                      src={video.thumbnail}
-                      alt={video.title}
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        e.target.style.display = 'none';
-                        e.target.parentElement.innerHTML = '<div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-200 to-orange-200"><div class="text-center"><div class="text-4xl mb-2">📹</div><span class="text-gray-600">Video</span></div></div>';
-                      }}
-                    />
-                    <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300 flex items-center justify-center">
-                      <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                        <FaPlay className="text-[#D17950] text-2xl ml-1" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="p-4">
-                    <h3 className="text-gray-800 font-bold text-lg">{video.title}</h3>
-                  </div>
-                </div>
+                <Video key={video.id} video={video}/>
               ))}
             </div>
 

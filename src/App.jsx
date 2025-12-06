@@ -19,15 +19,22 @@ function App() {
       <Navigation />
       <Hero />
       <Collaboration />
+      
       <WelcomeMessage />
       <Committee />
-      <Venue />
+      
       <RegistrationPackages />
-      <Milestones />
-      <ScientificProgramme/>
+      
       <Abstract />
+      <ScientificProgramme/>
+      
       <Gallery />
+            
+      <Venue />
       <AboutHyderabad />
+
+      <Milestones />
+
       <Footer />
     </div>
   );

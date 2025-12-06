@@ -53,9 +53,9 @@ const Gallery = () => {
   ];
 
   const videoGallery = [
-    { id: 1, title: 'Conference Highlights 2024', thumbnail: './images/logos/cvts-logo.jpg', url: 'https://www.youtube.com/embed/Y-W-w8yNiKU?si=5SvxZ5yXisdgrDFk' },
-    { id: 2, title: 'Surgical Techniques Workshop', thumbnail: './images/logos/cvts-logo.jpg', url: 'https://www.youtube.com/embed/Y-W-w8yNiKU?si=5SvxZ5yXisdgrDFk' },
-    { id: 3, title: 'Expert Panel Discussion', thumbnail: './images/logos/cvts-logo.jpg', url: 'https://www.youtube.com/embed/Y-W-w8yNiKU?si=5SvxZ5yXisdgrDFk' }
+    { id: 1, title: 'Conference Highlights 2024', thumbnail: './images/logos/cvts-logo.jpg', url: 'https://youtu.be/kespuIraKw8?si=Iqoz-y7MBe2oRmvH' },
+    { id: 2, title: 'HOW NOT TO KILL A PATIENT', thumbnail: './images/logos/cvts-logo.jpg', url: 'https://youtu.be/eaSSBDemr5k?si=tR8K4lWWVKtbpDrb' },
+    { id: 3, title: 'CVTS BOOT CAMP 2024 INAUGURATION', thumbnail: './images/logos/cvts-logo.jpg', url: 'https://youtu.be/jm5u8V2nC1A?si=L7uqpNpG2eGAF2-Z' }
   ];
 
   return (

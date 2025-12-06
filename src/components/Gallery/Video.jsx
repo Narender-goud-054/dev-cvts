@@ -16,7 +16,7 @@ function Video({video}){
                     }}
                 />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300 flex items-center justify-center">
-                    <div onClick= {()=>{setOpen(true)}} className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <div onClick= {()=>window.open(video.url)} className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                         <FaPlay className="text-[#D17950] text-2xl ml-1" />
                     </div>
                 </div>
@@ -27,7 +27,7 @@ function Video({video}){
             </div>
 
             {/* Modal */}
-            {open && (
+            {/* {open && (
                 <div
                     className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50"
                     onClick={() => setOpen(false)}
@@ -37,7 +37,7 @@ function Video({video}){
                         onClick={(e) => e.stopPropagation()}
                     >
                         <iframe
-                        className="w-[800px] h-[450px] rounded-lg"
+                        className="w-full h-full rounded-lg"
                         src={video.url}
                         title="YouTube Player"
                         allow="autoplay; encrypted-media"
@@ -45,7 +45,7 @@ function Video({video}){
                         ></iframe>
                     </div>
                 </div>
-            )}
+            )} */}
         </div>
 }
 

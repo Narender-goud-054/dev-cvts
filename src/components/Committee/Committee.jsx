@@ -13,12 +13,12 @@ const Committee = () => {
       image: './images/committee/Bejoy-Kutty.png'
     },
     {
-      name: 'Dr. Zainul Hamdulay',
+      name: 'Dr. Kaladhar',
       position: 'Organising Secretary',
       image: './images/committee/OrganisingSecretary.jpg'
     },
     {
-      name: 'Dr. Neeraj Kamat',
+      name: 'Dr. Sai Surabhi',
       position: 'Treasurer',
       image: './images/committee/Treasurer.jpg'
     },

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube} from 'react-icons/fa';
 
 const Footer = () => {
   const usefulLinks = [
@@ -128,6 +128,14 @@ const Footer = () => {
                 aria-label="Instagram"
               >
                 <FaInstagram size={24} />
+              </a>
+              <a 
+                href="https://www.youtube.com/@NIMSCVTS"
+                target="_blank" 
+                className="text-gray-300 hover:text-red-400 transition-colors duration-300"
+                aria-label="Youtube"
+              >
+                <FaYoutube size={24} />
               </a>
             </div>
 

@@ -70,7 +70,7 @@ const Abstract = () => {
 
               <div className="text-center">
                 <a 
-                  href="https://forms.gle/gFwT6oJf8fbKW9mE6" 
+                  href="https://forms.gle/Vs7NDJN8F91KMXMH8" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-gradient-to-r from-[#D17950] to-[#DC8159] text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"

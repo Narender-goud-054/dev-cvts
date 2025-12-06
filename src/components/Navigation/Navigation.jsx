@@ -15,7 +15,7 @@ const Navigation = () => {
       setScrolled(window.scrollY > 50);
       
       // Update active link based on scroll position
-      const sections = ['home', 'message', 'committee', 'venue', 'registration', 'program', 'abstract', 'contact'];
+      const sections = ['home', 'message', 'committee', 'registration', 'abstract', 'scientificProgramme', 'gallery', 'venue', 'contact'];
       const currentSection = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -59,7 +59,6 @@ const Navigation = () => {
     { name: 'HOME', href: '#home' },
     { name: 'MESSAGE', href: '#message' },
     { name: 'COMMITTEE', href: '#committee' },
-    { name: 'WORKSHOP', href: '#venue' },
     { 
       name: 'ABSTRACT', 
       href: '#abstract',
@@ -79,6 +78,7 @@ const Navigation = () => {
         { name: 'Video Gallery', href: '#videos' }
       ]
     },
+    { name: 'VENUE', href: '#venue' },
     { name: 'ABOUT US', href: '#milestones' }
   ];
 
@@ -95,7 +95,7 @@ const Navigation = () => {
               {/* Logo */}
               <div className="flex-shrink-0">
                 <a href="#home" onClick={() => handleLinkClick('#home')} className="flex items-center">
-                  <span className="text-xl lg:text-2xl font-bold text-white">CVTS BOOT CAMP 2025</span>
+                  <span className="text-xl lg:text-2xl font-bold text-white">CVTS BOOT CAMP 2026</span>
                 </a>
               </div>
 

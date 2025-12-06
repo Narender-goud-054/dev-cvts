@@ -4,46 +4,25 @@ import { FaCheckCircle } from 'react-icons/fa';
 const RegistrationPackages = () => {
   const packages = [
     {
-      title: 'CVTS Member',
-      price: '₹ 00,000',
+      title: 'MBBS Student',
+      price: '₹ 1,000',
       category: 'NON RESIDENTIAL PACKAGE',
       deadline: 'Early Bird Till 30th November 2025',
       type: 'member'
     },
     {
-      title: 'CVTS Non Member',
-      price: '₹ 00,000',
+      title: 'PG Student',
+      price: '₹ 1,500',
       category: 'NON RESIDENTIAL PACKAGE',
       deadline: 'Early Bird Till 30th November 2025',
       type: 'non-member'
     },
     {
-      title: 'Student/Trainee CVTS Member & Non Member',
-      price: '₹ 00,000',
-      category: 'NON RESIDENTIAL PACKAGE',
+      title: 'Resident',
+      price: '₹ 2,000',
+      category: 'RESIDENTIAL PACKAGE',
       deadline: 'Early Bird Till 30th November 2025',
       type: 'student'
-    },
-    {
-      title: 'Introductory Package Surgeon + PA + Nurse',
-      price: '₹ 00,000',
-      category: 'For 3 Days',
-      deadline: 'Early Bird Till 30th November 2025',
-      type: 'combo'
-    },
-    {
-      title: 'Physician Associate',
-      price: '₹ 00,000',
-      category: 'For 3 Days',
-      deadline: 'Early Bird Till 30th November 2025',
-      type: 'pa'
-    },
-    {
-      title: 'Nurse',
-      price: '₹ 00,000',
-      category: 'For 3 Days',
-      deadline: 'Early Bird Till 30th November 2025',
-      type: 'nurse'
     }
   ];
 
@@ -67,7 +46,7 @@ const RegistrationPackages = () => {
                 <h3 className="text-2xl font-bold mb-2">{pkg.title}</h3>
                 <div className="flex items-baseline justify-center mt-4">
                   <span className="text-5xl font-extrabold">{pkg.price.split(' ')[0]}</span>
-                  <span className="text-2xl ml-2">{pkg.price.split(' ')[1]}</span>
+                  <span className="text-2xl font-bold ml-2">{pkg.price.split(' ')[1]}</span>
                 </div>
               </div>
 

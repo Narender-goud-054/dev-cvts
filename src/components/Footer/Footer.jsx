@@ -51,18 +51,18 @@ const Footer = () => {
 
           {/* Conference Secretariat */}
           <div>
-            <h3 className="text-xl font-bold mb-6">Conference Secretariat</h3>
+            <h3 className="text-xl font-bold mb-6">NIMS CVTS</h3>
             
             {/* Vama Logo */}
             <div className="bg-white/10 rounded-lg p-4 mb-6">
               <img 
                 src="/images/logos/vama-logo.png" 
-                alt="VAMA Events"
+                alt="NIMS CVTS"
                 className="h-12 object-contain mx-auto"
                 onError={(e) => {
                   e.target.onerror = null;
                   e.target.style.display = 'none';
-                  e.target.parentElement.innerHTML = '<div class="h-12 flex items-center justify-center"><span class="text-sm">VAMA Events</span></div>';
+                  e.target.parentElement.innerHTML = '<div class="h-12 flex items-center justify-center"><span class="text-sm">NIMS CVTS</span></div>';
                 }}
               />
             </div>
@@ -87,10 +87,10 @@ const Footer = () => {
               <div className="flex items-center">
                 <FaEnvelope className="text-red-400 mr-3" />
                 <a 
-                  href="mailto:conferences@vamaevents.com" 
+                  href="mailto:nimscvts@gmail.com"
                   className="text-gray-300 hover:text-red-400 transition-colors text-sm"
                 >
-                  conferences@vamaevents.com
+                  nimscvts@gmail.com
                 </a>
               </div>
             </div>

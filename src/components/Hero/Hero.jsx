@@ -49,7 +49,7 @@ const Hero = () => {
         <div className="mb-8 animate-fade-in">
           <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full p-6 mb-6">
             <img 
-              src="/images/logos/iacts-logo.png" 
+              src="./images/logos/cvts_logo-full.png"
               alt="IACTS Logo"
               className="w-24 h-24 object-contain"
               onError={(e) => {

@@ -39,7 +39,7 @@ const Committee = () => {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
-          {members.map((member, index) => <Member key={member.id} member={member}/>)}
+          {members.map((member, index) => <Member key={index} member={member}/>)}
         </div>
 
         {/* Additional Committee Info */}

@@ -121,7 +121,7 @@ const Gallery = () => {
             </div>
 
             <div className="text-center mt-12">
-              <button className="bg-gradient-to-r from-[#D17950] to-[#DC8159] text-white px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <button onClick={()=> window.open("https://www.youtube.com/@NIMSCVTS")} className="bg-gradient-to-r from-[#D17950] to-[#DC8159] text-white px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
                 View All Videos
               </button>
             </div>

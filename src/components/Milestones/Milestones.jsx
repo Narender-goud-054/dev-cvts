@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaStar, FaTrophy, FaAward } from 'react-icons/fa';
-
+import { FaStar, FaTrophy, FaAward, FaFacebook, FaYoutube, FaInstagram } from 'react-icons/fa';
 const Milestones = () => {
   const milestones = [
     {
@@ -60,6 +59,31 @@ const Milestones = () => {
           </p>
         </div>
       </div>
+
+    <div className="p-4 flex space-x-6 mb-6 md:mb-0 justify-around">
+      <a 
+        href="#" 
+        className="text-blue-700 hover:text-gray-500 transition-colors duration-300"
+        aria-label="Facebook"
+      >
+        <FaFacebook size={72} />
+      </a>
+      <a 
+        href="https://www.youtube.com/@NIMSCVTS" 
+        target='_blank'
+        className="text-red-600 hover:text-gray-500 transition-colors duration-300"
+        aria-label="Youtube"
+      >
+        <FaYoutube size={72} />
+      </a>
+      <a 
+        href="#" 
+        className="text-red-600 hover:text-gray-500 transition-colors duration-300"
+        aria-label="Instagram"
+      >
+        <FaInstagram size={72} />
+      </a>
+    </div>
     </section>
   );
 };

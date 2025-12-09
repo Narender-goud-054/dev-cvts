@@ -101,7 +101,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex space-x-6 mb-6 md:mb-0">
-              <a 
+              {/* <a 
                 href="#" 
                 className="text-gray-300 hover:text-red-400 transition-colors duration-300"
                 aria-label="Facebook"
@@ -121,9 +121,10 @@ const Footer = () => {
                 aria-label="LinkedIn"
               >
                 <FaLinkedin size={24} />
-              </a>
+              </a> */}
               <a 
-                href="#" 
+                href="https://www.instagram.com/cvtsbootcamp.2026/"
+                target='_blank' 
                 className="text-gray-300 hover:text-red-400 transition-colors duration-300"
                 aria-label="Instagram"
               >

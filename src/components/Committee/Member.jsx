@@ -22,6 +22,9 @@ function Member({member}){
                 {member.name}
             </h3>
             <p className="text-red-600 font-semibold">
+                {member.NIMS_position}
+            </p>
+            <p className="text-red-600 font-semibold">
                 {member.position}
             </p>
             </div>

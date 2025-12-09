@@ -4,17 +4,50 @@ import Member from './Member';
 const Committee = () => {
   const members = [
     {
+      name: 'Dr. N Bheerappa',
+      NIMS_position: 'Director, NIMS',
+      position: 'Patron',
+      image: './images/committee/DR. N BHEERAPPA.jpg'
+    },
+    {
+      name: 'Dr. Liza Rajasekhar',
+      NIMS_position: 'DEAN, NIMS',
+      position: 'Co-Patron',
+      image: './images/committee/DR. LIZA RAJASEKHAR.jpg'
+    },
+    {
+      name: 'Dr. N Satayanarayana',
+      NIMS_position: 'MS, NIMS',
+      position: 'Co-Patron',
+      image: './images/committee/DR. N SATYANARAYANA.jpg'
+    },
+    {
+      name: 'Dr. Amaresh Rao M',
+      NIMS_position: 'HOD, Dept of CVTS, NIMS',
+      position: 'Organising Chairperson',
+      image: './images/committee/DR. AMARESH RAO M.jpg'
+    },
+    {
+      name: 'Dr. T Ramakrishna Dev ',
+      NIMS_position: 'Unit cheif, dept of CVTS, NIMS',
+      position: 'Organising Co-Chairperson',
+      image: './images/committee/DR. T RAMAKRISHNA DEV.jpg'
+    },
+    {
       name: 'Dr. Kaladhar',
+      NIMS_position: 'Addl prof, dept of CVTS, NIMS',
       position: 'Organising Secretary',
       image: './images/committee/OrganisingSecretary.jpg'
     },
     {
       name: 'Dr. Vikas Puppala',
+      NIMS_position:'',
       position: 'Co-Organising Secretary',
       image: './images/committee/Co-Organiser_VikasPuppala.jpg'
     },
     {
       name: 'Dr. Sai Surabhi',
+      NIMS_position: 'Addl prof, dept of CVTS, NIMS',
       position: 'Treasurer',
       image: './images/committee/Treasurer.jpg'
     }

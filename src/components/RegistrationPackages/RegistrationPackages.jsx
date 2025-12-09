@@ -4,24 +4,24 @@ import { FaCheckCircle } from 'react-icons/fa';
 const RegistrationPackages = () => {
   const packages = [
     {
-      title: 'MBBS Student',
+      title: 'MBBS/UG Student',
       price: '₹ 1,000',
       category: 'NON RESIDENTIAL PACKAGE',
-      deadline: 'Early Bird Till 30th November 2025',
+      deadline: 'Deadline to register Jan 15th',
       type: 'member'
     },
     {
-      title: 'PG Student',
+      title: 'PG/MS Student',
       price: '₹ 1,500',
       category: 'NON RESIDENTIAL PACKAGE',
-      deadline: 'Early Bird Till 30th November 2025',
+      deadline: 'Deadline to register Jan 15th',
       type: 'non-member'
     },
     {
-      title: 'Resident',
+      title: 'Mch/CVTS Resident',
       price: '₹ 2,000',
       category: 'RESIDENTIAL PACKAGE',
-      deadline: 'Early Bird Till 30th November 2025',
+      deadline: 'Deadline to register Jan 15th',
       type: 'student'
     }
   ];
@@ -31,7 +31,7 @@ const RegistrationPackages = () => {
       <div className="container-custom">
         <h2 className="section-title">Registration Packages</h2>
         <p className="section-subtitle">
-          Early Bird Pricing Available Until November 30th, 2025
+          Deadline to register Jan 15th, 2026
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -42,7 +42,7 @@ const RegistrationPackages = () => {
             >
               {/* Card Header */}
               <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white p-6">
-                <p className="text-sm font-semibold mb-2 opacity-90">{pkg.category}</p>
+                {/* <p className="text-sm font-semibold mb-2 opacity-90">{pkg.category}</p> */}
                 <h3 className="text-2xl font-bold mb-2">{pkg.title}</h3>
                 <div className="flex items-baseline justify-center mt-4">
                   <span className="text-5xl font-extrabold">{pkg.price.split(' ')[0]}</span>
@@ -53,12 +53,17 @@ const RegistrationPackages = () => {
               {/* Card Body */}
               <div className="p-6">
                 <div className="mb-6">
-                  <div className="flex items-center text-green-600 mb-4">
+                  {/* <div className="flex items-center text-green-600 mb-4">
                     <FaCheckCircle className="mr-2" />
                     <span className="text-sm font-semibold">{pkg.deadline}</span>
-                  </div>
+                  </div> */}
+                  
                   
                   <ul className="space-y-2 text-gray-600">
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">•</span>
+                      <span>Hands-on Coronary and Valve Surgery Workshop </span>
+                    </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-2">•</span>
                       <span>Access to all scientific sessions</span>
@@ -93,8 +98,7 @@ const RegistrationPackages = () => {
             Registration Information
           </h3>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            All registrations include access to scientific sessions, conference materials, and networking events. 
-            Early bird rates are available until November 30th, 2025. Register now to secure your spot!
+             Register now to secure your spot! Limited Slots Available.
           </p>
         </div>
       </div>

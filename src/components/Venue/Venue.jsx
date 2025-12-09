@@ -26,7 +26,7 @@ const Venue = () => {
           <div className="order-2 lg:order-1">
             <div className="rounded-2xl overflow-hidden shadow-xl h-96 bg-gray-200">
               <img 
-                src="/images/venue/jio-world-exterior.jpg" 
+                src="./images/venue/NIMS_hyd.jpg" 
                 alt="Jio World Convention Centre"
                 className="w-full h-full object-cover"
                 onError={(e) => {
@@ -110,7 +110,7 @@ const Venue = () => {
             </div>
             <div className="min-h-[300px] bg-gray-200">
               <img 
-                src="/images/venue/jio-world-interior.jpg" 
+                src="./images/venue/NIMS_hyd.jpg" 
                 alt="Convention Centre Interior"
                 className="w-full h-full object-cover"
                 onError={(e) => {

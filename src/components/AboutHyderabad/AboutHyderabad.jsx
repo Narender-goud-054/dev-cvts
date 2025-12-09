@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutHyderabad = () => {
   const images = [
-    { id: 1, src: './images/hyderabad/charminar.jpg', alt: 'Charminar of Hyderabad', title: 'Charminar of Hyderabad' },
+    { id: 1, src: './images/hyderabad/charminar_byPooja.jpg', alt: 'Charminar of Hyderabad', title: 'Charminar of Hyderabad' },
     { id: 2, src: './images/hyderabad/buddha.jpg', alt: 'Buddha Statue',title: 'Buddha Statue' },
     { id: 3, src: './images/hyderabad/nehrupark.jpg', alt: 'Nehru Zoological Park', title: 'Nehru Zoological Park' },
     { id: 4, src: './images/hyderabad/birlaTemple.jpg', alt: 'Birla Temple', title: 'Birla Temple' },
@@ -17,17 +17,11 @@ const AboutHyderabad = () => {
         
         <div className="max-w-4xl mx-auto mb-12">
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Hyderabad blends historic charm with modern sophistication, giving the city 
-            a refined and balanced identity. Its old quarters, graceful architecture, and
-             deep cultural traditions create an atmosphere of timeless elegance that 
-             continues to shape its character.
-          </p>
-          
-          <p className="text-lg text-gray-700 leading-relaxed">
-            At the same time, its contemporary districts introduce polished urban design,
-             landscaped avenues, and vibrant commercial hubs. Together, these elements form a city
-              that feels both culturally rich and impressively modern, offering a distinctive and 
-              enduring sense of elegance.
+            Hyderabad is a city where history whispers through ancient arches while modern skylines
+             rise with quiet confidence. The Charminar stands as a timeless guardian, watching over
+              streets alive with culture, learning, and innovation. In this vibrant blend of tradition 
+              and progress, Hyderabad nurtures minds that seek excellence and hands that strive to heal.
+               Amid its warm hues, bustling pathways, and serene lakes, the city becomes a companion in discovery. Here, at NIMS, the spirit of Hyderabad inspires every step — encouraging surgeons to dream boldly, learn deeply, and refine the art of healing with purpose and passion.
           </p>
         </div>
 

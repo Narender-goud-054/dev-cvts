@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube} from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaInstagram, FaYoutube} from 'react-icons/fa';
 
 const Footer = () => {
   const usefulLinks = [
@@ -51,14 +51,14 @@ const Footer = () => {
 
           {/* Conference Secretariat */}
           <div>
-            <h3 className="text-xl font-bold mb-6">NIMS CVTS</h3>
+            <h3 className="text-xl font-bold mb-6">NIMS</h3>
             
-            {/* Vama Logo */}
-            <div className="bg-white/10 rounded-lg p-4 mb-6">
+            {/* NIMS Logo */}
+            <div className=" rounded-lg p-4 mb-6">
               <img 
-                src="/images/logos/vama-logo.png" 
-                alt="NIMS CVTS"
-                className="h-12 object-contain mx-auto"
+                src="./images/logos/NIMS_logo.png" 
+                alt="NIMS"
+                className="h-24 object-contain"
                 onError={(e) => {
                   e.target.onerror = null;
                   e.target.style.display = 'none';

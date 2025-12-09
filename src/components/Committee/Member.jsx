@@ -4,7 +4,7 @@ function Member({member}){
             className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
             {/* Member Image */}
-            <div className="bg-gradient-to-br from-blue-100 to-gray-100 h-64 flex items-center justify-center overflow-hidden">
+            <div className=" aspect-[35/40] bg-gradient-to-br from-blue-100 to-gray-100 flex items-center justify-center overflow-hidden">
             <img 
                 src={member.image} 
                 alt={member.name}

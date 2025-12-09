@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import Navigation from './components/Navigation/Navigation';
 import Hero from './components/Hero/Hero';
 import Collaboration from './components/Collaboration/Collaboration';
@@ -12,13 +13,16 @@ import Gallery from './components/Gallery/Gallery';
 import AboutHyderabad from './components/AboutHyderabad/AboutHyderabad';
 import Footer from './components/Footer/Footer';
 import ScientificProgramme from './components/ScientificProgramme/ScientificProgramme';
+import PopupDiv from './components/Popup/PopupDiv';
+import RoarAnimation from './components/RoarAnimation';
 
 function App() {
+  const [popupOpen, setPopupOpen] = useState(true);
   return (
     <div className="App">
       <Navigation />
       <Hero />
-      <Collaboration />
+      {/* <Collaboration /> */}
       
       <WelcomeMessage />
       <Committee />
@@ -36,6 +40,10 @@ function App() {
       <Milestones />
 
       <Footer />
+      
+      {/* {popupOpen && (
+        <PopupDiv isOpen={popupOpen} closeAction={() => setPopupOpen(false)} />
+      )} */}
     </div>
   );
 }

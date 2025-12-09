@@ -21,7 +21,7 @@ function Member({member}){
             <h3 className="text-xl font-bold text-gray-800 mb-2">
                 {member.name}
             </h3>
-            <p className="text-red-600 font-semibold">
+            <p className="font-semibold">
                 {member.NIMS_position}
             </p>
             <p className="text-red-600 font-semibold">

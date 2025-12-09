@@ -24,7 +24,7 @@ export default function RoarAnimation() {
         {words.map((word, wordIndex) => (
           <div key={wordIndex} className="flex">
             {/* Base R */}
-            <span className="text-3xl md:text-4xl lg:text-6xl font-bold animate-fade-in-up">R</span>
+            <span className="text-2xl md:text-4xl lg:text-5xl animate-fade-in-up mx-auto">R</span>
 
             {/* Expanding letters */}
             <span
@@ -34,7 +34,7 @@ export default function RoarAnimation() {
                 ${stage === "expanded" ? "max-w-[20rem] opacity-100" : "max-w-0 opacity-0"}
               `}
             >
-              <span className="text-3xl md:text-4xl lg:text-6xl align-text-bottom">
+              <span className="text-2xl md:text-4xl lg:text-5xl align-text-bottom mx-auto">
                 {stage === "expanded" && word.rest}
               </span>
             </span>

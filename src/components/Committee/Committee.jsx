@@ -4,29 +4,19 @@ import Member from './Member';
 const Committee = () => {
   const members = [
     {
-      name: 'Dr. Anvay Mulay',
-      position: 'Organising Chairman',
-      image: './images/committee/duoclose.jpg'
-    },
-    {
-      name: 'Dr. Bijoy Kutty',
-      position: 'Organising Secretary',
-      image: './images/committee/Bejoy-Kutty.png'
-    },
-    {
       name: 'Dr. Kaladhar',
       position: 'Organising Secretary',
       image: './images/committee/OrganisingSecretary.jpg'
     },
     {
+      name: 'Dr. Vikas Puppala',
+      position: 'Co-Organising Secretary',
+      image: './images/committee/Co-Organiser_VikasPuppala.jpg'
+    },
+    {
       name: 'Dr. Sai Surabhi',
       position: 'Treasurer',
       image: './images/committee/Treasurer.jpg'
-    },
-    {
-      name: 'Dr. Sandeep Sinha',
-      position: 'General Manager',
-      image: './images/committee/Sandeep-Sinha.png'
     }
   ];
 

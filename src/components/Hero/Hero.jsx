@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import RoarAnimation from '../RoarAnimation';
 
 const Hero = () => {
   const [countdown, setCountdown] = useState({
@@ -62,10 +63,10 @@ const Hero = () => {
         </div>
 
         {/* Main Title */}
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in-up">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 animate-fade-in-up">
           BOOT CAMP CVTS 2026
         </h1>
-        
+        <RoarAnimation/>
         <p className="text-xl md:text-2xl lg:text-3xl mb-4 animate-fade-in-up">
           NIMS, Hyderabad, India
         </p>

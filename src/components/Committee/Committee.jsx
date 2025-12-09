@@ -41,7 +41,7 @@ const Committee = () => {
     },
     {
       name: 'Dr. Vikas Puppala',
-      NIMS_position:'',
+      NIMS_position:'Asst. Prof',
       position: 'Co-Organising Secretary',
       image: './images/committee/Co-Organiser_VikasPuppala.jpg'
     },

@@ -44,12 +44,13 @@ const Gallery = () => {
   }, [activeTab]);
 
   const photoGallery = [
-    { id: 1, title: 'Conference Hall', src: '/images/gallery/photo1.jpg' },
-    { id: 2, title: 'Workshop Session', src: '/images/gallery/photo2.jpg' },
-    { id: 3, title: 'Networking Event', src: '/images/gallery/photo3.jpg' },
-    { id: 4, title: 'Keynote Speech', src: '/images/gallery/photo4.jpg' },
-    { id: 5, title: 'Panel Discussion', src: '/images/gallery/photo5.jpg' },
-    { id: 6, title: 'Exhibition Area', src: '/images/gallery/photo6.jpg' }
+    { id: 1, title: 'Bronchoscopy Workshop', src: './images/workshop/Bronchoscopy workshop.jpg' },
+    { id: 2, title: 'Cardiac Valve Workshop', src: './images/workshop/Cardiac valve workshop.jpg' },
+    { id: 3, title: 'Centrimag CSM', src: './images/workshop/centrimag csm.jpg' },
+    { id: 4, title: 'Coronary Workshop', src: './images/workshop/Coronary workshop1.jpg' },
+    { id: 5, title: 'Coronary Workshop', src: './images/workshop/Coronary workshop2.jpg' },
+    { id: 6, title: 'TRANSTHORACIC ECHO HANDS ON WORKSHOP', src: './images/workshop/TRANSTHORACIC ECHO HANDS ON WORKSHOP.jpg' },
+    { id: 7, title: 'VATS Simulator', src: './images/workshop/VATS simulator.jpg' }
   ];
 
   const videoGallery = [

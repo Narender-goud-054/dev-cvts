@@ -31,7 +31,7 @@ const Committee = () => {
       name: 'Dr. T Ramakrishna Dev ',
       NIMS_position: 'Unit cheif, dept of CVTS, NIMS',
       position: 'Organising Co-Chairperson',
-      image: './images/committee/DR. T RAMAKRISHNA DEV.jpg'
+      image: './images/committee/DR.TRAMAKRISHNADEV.jpg'
     },
     {
       name: 'Dr. Kaladhar',

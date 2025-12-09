@@ -13,7 +13,7 @@ import Gallery from './components/Gallery/Gallery';
 import AboutHyderabad from './components/AboutHyderabad/AboutHyderabad';
 import Footer from './components/Footer/Footer';
 import ScientificProgramme from './components/ScientificProgramme/ScientificProgramme';
-import PopupDiv from './components/Popup/PopupDiv';
+// import PopupDiv from './components/Popup/PopupDiv';
 import RoarAnimation from './components/RoarAnimation';
 
 function App() {

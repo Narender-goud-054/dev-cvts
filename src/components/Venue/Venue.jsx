@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaTrain, FaBus, FaMapMarkerAlt } from 'react-icons/fa';
+import MapEmbed from './MapEmbed';
 
 const Venue = () => {
   const transportOptions = [
@@ -63,7 +64,7 @@ const Venue = () => {
             </div>
           </div>
         </div>
-
+        <MapEmbed/>
         {/* How to Get There */}
         <div className="mb-16">
           <h3 className="text-3xl font-bold text-center text-gray-800 mb-12">

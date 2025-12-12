@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaInstagram, FaYoutube} from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa'
 
 const Footer = () => {
   const usefulLinks = [
@@ -17,17 +18,17 @@ const Footer = () => {
           {/* About Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <span className="text-3xl font-bold">NIMS CVTS</span>
+              <span className="text-3xl font-bold">CVTS BOOT CAMP </span>
               <span className="text-2xl font-semibold text-red-400">2026</span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6">
-              NIMS CVTS 2026 will be a premier gathering of global cardiothoracic experts at Trauma Auditorium NIMS, 
+              CVTS BOOT CAMP 2026 will be a premier gathering of global cardiothoracic experts at Trauma Auditorium NIMS, 
               Hyderabad. The conference will feature advanced scientific sessions, innovative surgical techniques, and 
               discussions shaping the future of cardiac care. A special highlight will be the recognition of Indian 
               surgeons making a global impact.
             </p>
             <p className="text-gray-400 text-sm">
-              Organized by Dr. Pooja, and Team
+              Organized by CVTS 2023 batch
             </p>
           </div>
 
@@ -77,10 +78,10 @@ const Footer = () => {
               </div>
 
               <div className="flex items-center">
-                <FaPhone className="text-red-400 mr-3" />
+                <FaWhatsapp className="text-red-400 mr-3" />
                 <div className="text-gray-300 text-sm">
-                  <p>+91-40-23489000,+91-40-23396552</p>
-                  <p>+91-40-23489244,+91-40-23489245</p>
+                  <p>+91 9030774677</p>
+                  <p>+91 9666166899</p>
                 </div>
               </div>
 

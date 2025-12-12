@@ -1,9 +1,9 @@
 export const day1Data = [
   {
-    isHeader: false,
+    isHeader: true,
     cells: [
-      { content: '08:30 - 09.15 AM', isHeaderCell: true },
-      { content: 'CARDIOPULMONARY BYPASS – The Heart of the Circuit <br> Precision on Pump Begins with Precision in Thought.', colSpan: 3 },
+      // { content: '08:30 - 09.15 AM', isHeaderCell: true },
+      { content: 'CARDIOPULMONARY BYPASS – The Heart of the Circuit <br> Precision on Pump Begins with Precision in Thought.', colSpan: 4 },
     ],
   },
   {
@@ -40,10 +40,10 @@ export const day1Data = [
     ],
   },
   {
-    isHeader: false,
+    isHeader: true,
     cells: [
-      { content: '09:30 - 10:40 AM', isHeaderCell: true },
-      { content: 'SURVIVAL SKILLS – The First 100 Days<br>“What Nobody Teaches… but Every Surgeon Must Know.” <br>', colSpan: 3 },
+      // { content: '09:30 - 10:40 AM', isHeaderCell: true },
+      { content: 'SURVIVAL SKILLS – The First 100 Days<br>“What Nobody Teaches… but Every Surgeon Must Know.” <br>', colSpan: 4 },
     ],
   },
   {
@@ -223,10 +223,10 @@ export const day1Data = [
     ]
   },
   {
-    isHeader: false,
+    isHeader: true,
     cells: [
-      { content: '03:30 - 6:00 PM', isHeaderCell: true },
-      { content: 'THORACIC SURGERY <br>“Sharpen the Mind. Strengthen the Hands. Steady the Heart.”', colSpan: 3 },
+      // { content: '03:30 - 6:00 PM', isHeaderCell: true },
+      { content: 'THORACIC SURGERY <br>“Sharpen the Mind. Strengthen the Hands. Steady the Heart.”', colSpan: 4},
     ],
   },
   {
@@ -249,8 +249,8 @@ export const day1Data = [
     isHeader: false,
     cells: [
       { content: '06:30 - 10:00 PM', isHeaderCell: true },
-      { content: 'EVENING SYMPOSIUM <br>MITRAL AND AORTIC VALVE REPLACEMENT', colSpan: 2 },
-      {content: 'Dr. Sai Surabhi'}
+      { content: 'EVENING SYMPOSIUM <br>MITRAL AND AORTIC VALVE REPLACEMENT'},
+      {content: 'Dr. Sai Surabhi',colSpan:2}
     ],
   }
 ];
@@ -295,7 +295,7 @@ export const day2Data = [
       { content: '09:55 - 10:15AM', isHeaderCell: true },
       { content: 'ERAS in Cardiac Surgery – FUTURE FAST TRACK' },
       { content: 'Dr. Ali' },
-      { content: '30 MIN' },
+      { content: '20 MIN' },
     ],
   },
   {
@@ -304,7 +304,7 @@ export const day2Data = [
       { content: '10:15 - 10:30 AM', isHeaderCell: true },
       { content: 'Social Media for Surgeons – Influence. Educate. Lead.' },
       { content: 'Dr. Srikant' },
-      { content: '30 MIN' },
+      { content: '15 MIN' },
     ],
   },
   {
@@ -344,7 +344,7 @@ export const day2Data = [
       { content: '11.45 - 12.00 PM', isHeaderCell: true },
       { content: 'Transplant Team Dynamics & Protocols <br> “Where Precision Meets Coordination.”' },
       { content: 'Dr. John Murala' },
-      { content: '20 MIN' },
+      { content: '15 MIN' },
     ],
   },
   {
@@ -358,7 +358,7 @@ export const day2Data = [
     cells: [
       { content: '12.00–12.15 PM', isHeaderCell: true },
       { content: 'Post-op Follow-Up Guidelines'},
-      {content: 'Dr.Rajashekar'},
+      {content: 'Dr. Rajashekar'},
       { content: '15 MIN' },
     ],
   },
@@ -366,29 +366,34 @@ export const day2Data = [
     isHeader: false,
     cells: [
       { content: '01.30PM', isHeaderCell: true },
-      { content: 'Goal-Directed Medical Therapy', colSpan: 2 },
-      { content: '' },
+      { content: 'Goal-Directed Medical Therapy'},
+      { content: 'Dr. Abhachandra' },
+      {content: '15 MIN'}
     ],
   },
   {
     isHeader: false,
     cells: [
       { content: '02.00PM ONWARDS', isHeaderCell: true },
-      { content: 'Leadership in OT & ICU – Your Team Mirrors Your Mindset', colSpan: 3 },
+      { content: 'Leadership in OT & ICU – Your Team Mirrors Your Mindset'},
+      {content: 'Dr. Pratheek Bhatnagar'},
+      {content: '15 MIN'}
     ],
   },
   {
     isHeader: false,
     cells: [
-      { content: '----', isHeaderCell: true },
-      { content: 'PANEL DISCUSSION <br> “When Can I Become an Independent Surgeon?” Real questions. Honest answers. Clear paths.', colSpan: 3 },
+      { content: '01:00-01:30 PM', isHeaderCell: true },
+      { content: 'PANEL DISCUSSION <br> “When Can I Become an Independent Surgeon?” Real questions. Honest answers. Clear paths.'},
+      {content:'Dr. Amareh Rao (Moderator)<br> Dr. Abhachandra<br> Dr. Balasubramaniam KR', colSpan:2}
     ],
   },
   {
     isHeader: false,
     cells: [
-      { content: '----', isHeaderCell: true },
-      { content: 'WORKSHOP -VALVE SURGERY. <br> From Anatomy to Mastery: Elevating Valve Surgery.', colSpan: 3 },
+      { content: '01:30-02:00 PM', isHeaderCell: true },
+      { content: 'WORKSHOP -VALVE SURGERY. <br> From Anatomy to Mastery: Elevating Valve Surgery.'},
+      {content:'', colSpan:2}
     ],
   },
 ];

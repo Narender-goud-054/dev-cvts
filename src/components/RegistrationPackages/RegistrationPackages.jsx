@@ -18,7 +18,7 @@ const RegistrationPackages = () => {
       type: 'non-member'
     },
     {
-      title: 'Mch Resident/ Post Mch Resident',
+      title: 'Mch Resident/ Post Mch',
       price: '₹ 2,000',
       category: 'RESIDENTIAL PACKAGE',
       deadline: 'Deadline to register Jan 15th',

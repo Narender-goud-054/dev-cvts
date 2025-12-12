@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaTrain, FaBus, FaMapMarkerAlt } from 'react-icons/fa';
 import MapEmbed from './MapEmbed';
-
+import Accomodation from './Accomodation';
 const Venue = () => {
   const transportOptions = [
     {
@@ -12,7 +12,7 @@ const Venue = () => {
     {
       icon: <FaBus className="text-4xl text-red-600" />,
       title: 'By Bus',
-      description: "Don't take Hyderabad buses, you will be stuck in Traffic"
+      description: 'Key Bus Routes: 218C, 185, 187, 9, 9C, 41, 84'
     }
   ];
 
@@ -124,6 +124,7 @@ const Venue = () => {
           </div>
         </div>
       </div>
+      <Accomodation/>
     </section>
   );
 };

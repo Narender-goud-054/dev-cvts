@@ -17,7 +17,7 @@ const ScientificProgramme = () => {
         </div>
       </div>
 
-      <div className='p-8 mt-4 shadow-lg rounded-md'>
+      <div className='p-4 mt-4 shadow-lg rounded-md'>
         <h1 className="tb-h2">Day 2</h1>
         <h2 className="tb-h2">FROM CONVENTIONAL TO CUTTING EDGE</h2>
         <h3 className="tb-h3">“Tomorrow’s CVTS Surgeon — Today.”</h3>

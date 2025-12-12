@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import Navigation from './components/Navigation/Navigation';
 import Hero from './components/Hero/Hero';
-import Collaboration from './components/Collaboration/Collaboration';
+//import Collaboration from './components/Collaboration/Collaboration';
 import WelcomeMessage from './components/WelcomeMessage/WelcomeMessage';
 import Committee from './components/Committee/Committee';
 import Venue from './components/Venue/Venue';
@@ -14,13 +14,14 @@ import AboutHyderabad from './components/AboutHyderabad/AboutHyderabad';
 import Footer from './components/Footer/Footer';
 import ScientificProgramme from './components/ScientificProgramme/ScientificProgramme';
 // import PopupDiv from './components/Popup/PopupDiv';
-import RoarAnimation from './components/RoarAnimation';
+//import HeartBeatComp from './components/HeartBeat/HeartBeatComp';
 
 function App() {
   const [popupOpen, setPopupOpen] = useState(true);
   return (
     <div className="App">
       <Navigation />
+      {/* <HeartBeatComp/> */}
       <Hero />
       {/* <Collaboration /> */}
       

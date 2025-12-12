@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import RoarAnimation from '../RoarAnimation';
+import RoarAnimation from './RoarAnimation';
 
 const Hero = () => {
   const [countdown, setCountdown] = useState({
@@ -40,7 +40,10 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <div className="w-full h-full bg-gradient-to-br from-blue-900 via-blue-800 to-red-800">
           {/* Overlay pattern */}
-          <div className="absolute inset-0 bg-black/30"></div>
+          <div className="absolute inset-0 bg-black/30">
+            {/* <img src='./images/CVTSBanner3.png' alt="BirlaTemple">
+            </img> */}
+          </div>
         </div>
       </div>
 
@@ -50,7 +53,7 @@ const Hero = () => {
         <div className="mb-8 animate-fade-in">
           <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full p-6 mb-6">
             <img 
-              src="./images/logos/cvts_logo-full.png"
+              src="./images/logos/cvts_logo-full-comprrr.png"
               alt="IACTS Logo"
               className="w-24 h-24 object-contain"
               onError={(e) => {

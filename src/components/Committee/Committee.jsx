@@ -34,22 +34,34 @@ const Committee = () => {
       image: './images/committee/DR.TRAMAKRISHNADEV.jpg'
     },
     {
-      name: 'Dr. Kaladhar',
-      NIMS_position: 'Addl prof, dept of CVTS, NIMS',
-      position: 'Organising Secretary',
-      image: './images/committee/OrganisingSecretary.jpg'
-    },
-    {
-      name: 'Dr. Vikas Puppala',
-      NIMS_position:'Asst. Prof',
-      position: 'Co-Organising Secretary',
-      image: './images/committee/Co-Organiser_VikasPuppala.jpg'
+      name: 'Dr. PSS Gopal',
+      NIMS_position: 'Addl. prof, dept of CVTS, NIMS',
+      position: 'Scientific Committe',
+      image: './images/committee/PSS_GOPAL_resized.jpg'
     },
     {
       name: 'Dr. Sai Surabhi',
       NIMS_position: 'Addl prof, dept of CVTS, NIMS',
       position: 'Treasurer',
       image: './images/committee/Treasurer.jpg'
+    },
+    {
+      name: 'Dr. Kaladhar',
+      NIMS_position: 'Addl prof, dept of CVTS, NIMS',
+      position: 'Organising Secretary',
+      image: './images/committee/OrganisingSecretary.jpg'
+    },
+    {
+      name: 'Dr. D Praveen',
+      NIMS_position: 'Asst. prof, dept of CVTS, NIMS',
+      position: 'Scientific Committe',
+      image: './images/committee/D_PRAVEEN.png'
+    },
+    {
+      name: 'Dr. Vikas Puppala',
+      NIMS_position:'Asst. Prof',
+      position: 'Co-Organising Secretary',
+      image: './images/committee/Co-Organiser_VikasPuppala.jpg'
     }
   ];
 

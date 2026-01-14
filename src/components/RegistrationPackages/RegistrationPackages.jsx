@@ -40,7 +40,7 @@ const RegistrationPackages = () => {
       <div className="container-custom">
         <h2 className="section-title">Registration Packages</h2>
         <p className="section-subtitle">
-          Deadline to register Jan 15th, 2026
+          Deadline to register Jan 21st, 2026
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

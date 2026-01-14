@@ -107,7 +107,7 @@ export const day1Data = [
   {
     isHeader: true,
     cells: [
-      { content: 'DR PRACHIKAR’S ANESTHESIA SYMPOSIUM <br>“The Quiet Science That Makes Surgery Possible.”<br>', colSpan: 4 },
+      { content: 'ANESTHESIA SYMPOSIUM <br>“The Quiet Science That Makes Surgery Possible.”<br>', colSpan: 4 },
     ],
   },
   {

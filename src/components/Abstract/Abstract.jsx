@@ -32,7 +32,7 @@ const Abstract = () => {
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-[#D17950] mr-2">•</span>
-                      <span>Abstract Submission Deadline: <strong>January 15, 2025</strong></span>
+                      <span>Abstract Submission Deadline: <strong>January 21, 2026</strong></span>
                     </li>
                     {/* <li className="flex items-start">
                       <span className="text-[#D17950] mr-2">•</span>

@@ -98,3 +98,33 @@ tr:nth-child(even) {
     overflow-x: visible;
   }
 }
+
+/* Workshop Section Styles */
+.workshop-card {
+  transition: all 0.3s ease;
+}
+
+.workshop-card:hover {
+  transform: translateY(-2px);
+  border-left-width: 6px;
+}
+
+.simulator-card {
+  transition: all 0.3s ease;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.simulator-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2);
+}
+
+@media (max-width: 768px) {
+  .workshop-card {
+    margin-bottom: 1rem;
+  }
+}

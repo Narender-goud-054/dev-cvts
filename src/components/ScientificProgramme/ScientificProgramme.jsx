@@ -1,6 +1,7 @@
 import React from 'react';
 import './ScientificProgramme.css';
 import ProgrammeTable from './ProgrammeTable';
+import WorkshopSection from './WorkshopSection';
 import { day1Data, day2Data } from './programmeData';
 
 const ScientificProgramme = () => {
@@ -25,6 +26,7 @@ const ScientificProgramme = () => {
           <ProgrammeTable data={day2Data} />
         </div>
       </div>
+      <WorkshopSection />    
     </div>
     </section>
   );

@@ -13,7 +13,8 @@ import Gallery from './components/Gallery/Gallery';
 import AboutHyderabad from './components/AboutHyderabad/AboutHyderabad';
 import Footer from './components/Footer/Footer';
 import ScientificProgramme from './components/ScientificProgramme/ScientificProgramme';
-// import PopupDiv from './components/Popup/PopupDiv';
+import SupportingPartners from './components/SupportingPartners/SupportingPartners';
+import PopupDiv from './components/Popup/PopupDiv';
 //import HeartBeatComp from './components/HeartBeat/HeartBeatComp';
 
 function App() {
@@ -39,12 +40,13 @@ function App() {
       <AboutHyderabad />
 
       <Milestones />
+      <SupportingPartners/>
 
       <Footer />
       
-      {/* {popupOpen && (
+      {popupOpen && (
         <PopupDiv isOpen={popupOpen} closeAction={() => setPopupOpen(false)} />
-      )} */}
+      )}
     </div>
   );
 }

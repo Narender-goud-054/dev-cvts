@@ -1,7 +1,7 @@
 const partners = [
     {
         name: "Healthium",
-        logo: "./images/partners/healthium.png"
+        logo: "./images/partners/healthium2.png"
     },
     {
         name:"SUN Pharmaceutical",
@@ -9,7 +9,7 @@ const partners = [
     },
     {
         name:"Terumo",
-        logo:"./images/partners/terumo.png"
+        logo:"./images/partners/terumo2.png"
     },
     {
         name:"Emcure",
@@ -17,7 +17,7 @@ const partners = [
     },
     {
         name:"Baxter",
-        logo:"./images/partners/baxter.png"
+        logo:"./images/partners/baxter2.png"
     },
     {
         name:"United Biotech",

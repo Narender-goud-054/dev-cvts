@@ -11,7 +11,7 @@ const Hero = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2026-01-24T00:00:00');
+    const targetDate = new Date('2026-01-24T08:00:00');
 
     const updateCountdown = () => {
       const now = new Date();

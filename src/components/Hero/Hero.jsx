@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import RoarAnimation from './RoarAnimation';
+import ECGWave3 from './ECGWave3';
 
 const Hero = () => {
   const [countdown, setCountdown] = useState({
@@ -74,9 +75,12 @@ const Hero = () => {
           NIMS, Hyderabad, India
         </p>
 
-        <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto animate-fade-in-up">
+        <p className="text-lg md:text-xl mb-4 md:mb-8 lg:mb-12  max-w-3xl mx-auto animate-fade-in-up">
           24th - 25th January 2026 | Trauma Auditorium, NIMS
         </p>
+        
+        {/*heart beat animation */}
+        <ECGWave3/>
 
         {/* Countdown Timer */}
         <div className="mb-12 animate-fade-in">

@@ -47,6 +47,15 @@ const partners = [
         name:"Visionary Medicare",
         logo:"./images/partners/Visionary-medicare.jpg"   
     },
+    {
+        name:"Maquet",
+        logo:"./images/partners/maquet4.png"
+    },
+    {
+        name:"ESaote",
+        logo:"./images/partners/eSaote.jpg"
+    }
+    
 ]
 
 const SupportingPartners = () => {

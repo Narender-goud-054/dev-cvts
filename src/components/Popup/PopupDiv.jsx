@@ -7,7 +7,7 @@ function PopupDiv({isOpen,closeAction}) {
             open={isOpen}
             onClose={closeAction}
             title="Last Date to Register"
-            date="21 January, 2026"
+            date="23 January, 2026"
             buttonText="Register Now"
             link="https://forms.gle/PE4d5BJago9kuSnJ6"
     />

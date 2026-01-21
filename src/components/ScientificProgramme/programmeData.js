@@ -128,7 +128,7 @@ export const day1Data = [
     cells:[
       {content: '12.50-01.10 PM'},
       {content: 'Career Building in Thoracic Organ Transplant'},
-      {content: 'Dr. Balasubramaniom <br>KR'},
+      {content: 'Dr. Balasubramoniam <br>KR'},
       {content: '20 MIN'}
     ]
   },

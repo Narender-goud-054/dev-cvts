@@ -333,7 +333,7 @@ export const day2Data = [
   {
     isHeader: true,
     cells: [
-      { content: 'WEBINAR SESSION <br> <span style="font-weight:normal;">(Moderator: Dr. Vishal</span> ', colSpan: 4 },
+      { content: 'WEBINAR SESSION <br> <span style="font-weight:normal;">(Moderator: Dr. Vishal, Dr. PSS Gopal)</span> ', colSpan: 4 },
     ],
   },
   {
@@ -341,7 +341,7 @@ export const day2Data = [
     cells:[
       {content: '08.30-08.50 AM', isHeaderCell: false},
       {content: 'Is Caridac Surgery Dying ?'},
-      {content: 'Dr. John Murala'},
+      {content: 'Dr. John Murala (UTSW, Texas)'},
       {content: '20 MIN'}
     ]
   },
@@ -350,7 +350,7 @@ export const day2Data = [
     cells:[
       {content: '08.50-09.20 AM', isHeaderCell: false},
       {content: 'Transplant- Heart and Lung Team Dynamics'},
-      {content: 'Dr. Vydehi Khaza'},
+      {content: 'Dr. Vydehi Khaza (UTSW, Texas)'},
       {content: '30 MIN'}
     ]
   },
@@ -408,7 +408,7 @@ export const day2Data = [
   {
     isHeader: true,
     cells: [
-      { content: 'RECENT ADVANCES & PARADIGM SHIFTS <br>"What has Chnages, What Matters Now" ', colSpan: 4 },
+      { content: 'RECENT ADVANCES & PARADIGM SHIFTS <br>"What has Changed, What Matters Now" ', colSpan: 4 },
     ],
   },
   {
@@ -522,7 +522,25 @@ export const day2Data = [
   {
     isHeader: false,
     cells:[
-      {content: '03.00-06.00 PM'},
+      {content: '03.00-03.15 PM'},
+      {content: 'Social Media for Surgeons: Professional Presence in the Digital Age (Digital Identity)'},
+      {content: 'Dr. Mahesh <br> (the.poeticdoctor)'},
+      {content: '15 MIN'}
+    ]
+  },
+  {
+    isHeader: false,
+    cells:[
+      {content: '03.15-03.25 PM'},
+      {content: 'Frozen Elephant Trunk: Where open meets Endovascular- Industry talk'},
+      {content: 'Terumo'},
+      {content: '10 MIN'}
+    ]
+  },
+  {
+    isHeader: false,
+    cells:[
+      {content: '03.25-06.00 PM'},
       {content: 'WORKSHOP: Aortic and Mitral Valve, Transplant, Lobectomy, VATS'},
       {content: 'Dr. PSS Gopal <br> Dr. Kaladhar'},
       {content: '180 MIN'}

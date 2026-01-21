@@ -33,7 +33,8 @@ const WorkshopSection = () => {
     { name: 'VATS SIMULATOR', count: '2 STATIONS' },
     { name: 'ECHOCARDIOGRAPHY', count: '' },
     { name: 'BRONCHOSCOPY: AMBUSCOPE', count: '' },
-    { name: 'RIB IMPLANT', count: '' }
+    { name: 'RIB IMPLANT', count: '' },
+    {name:'Frozen Elephant Trunk', count: ''}
   ];
 
   return (

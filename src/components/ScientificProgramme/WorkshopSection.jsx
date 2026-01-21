@@ -30,10 +30,10 @@ const WorkshopSection = () => {
   ];
 
   const simulators = [
-    { name: 'VATS SIMULATOR', count: '2 in No.' },
-    { name: '2D ECHO', count: '' },
-    { name: 'AMBUSCOPE', count: '' },
-    { name: 'RIBS IMPLANT', count: '' }
+    { name: 'VATS SIMULATOR', count: '2 STATIONS' },
+    { name: 'ECHOCARDIOGRAPHY', count: '' },
+    { name: 'BRONCHOSCOPY: AMBUSCOPE', count: '' },
+    { name: 'RIB IMPLANT', count: '' }
   ];
 
   return (

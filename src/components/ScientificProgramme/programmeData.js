@@ -11,7 +11,7 @@ export const day1Data = [
     cells: [
       { content: '08.30-08.50 AM', isHeaderCell: false },
       { content: 'CPB Basics – Back to the core' },
-      { content: 'Mr. Saxena' },
+      { content: 'Ms. Dharani' },
       { content: '20 MIN' },
     ],
   },
@@ -20,7 +20,7 @@ export const day1Data = [
     cells: [
       { content: '08.50-09.05 AM', isHeaderCell: false },
       { content: 'New Concepts – The evolving science of perfusion' },
-      { content: 'Dr. Vikas Puppala' },
+      { content: 'Mr. Arjit Saxena' },
       { content: '15 MIN' },
     ],
   },
@@ -28,7 +28,7 @@ export const day1Data = [
     isHeader: false,
     cells: [
       { content: '09.05-09.20 AM', isHeaderCell: false },
-      { content: 'ECMO' },
+      { content: "ECMO- When Conventional Support Isn't Enough" },
       { content: 'Dr. Vikram' },
       { content: '15 MIN' },
     ],
@@ -44,9 +44,9 @@ export const day1Data = [
   {
     isHeader: false,
     cells: [
-      { content: '09.20-09.45 AM', isHeaderCell: false },
+      { content: '09.25-09.45 AM', isHeaderCell: false },
       { content: 'TEA BREAK', isHeaderCell:true,colSpan: 2 },
-      {content: '25 MIN'}
+      {content: '20 MIN'}
     ],
   },
   {
@@ -64,35 +64,26 @@ export const day1Data = [
   },
   {
     isHeader: false,
-    cells: [ 
-      { content: '09.45-10.00 AM', isHeaderCell: false },
-      { content: 'Mastering the 1st 100 Days of CVTS-Be the Calm in the Chaos' },
-      { content: 'Dr. Abhijeet' },
-      { content: '15 MIN' },
-    ],
-  },
-  {
-    isHeader: false,
     cells: [
-      { content: '10.00-10.10 AM', isHeaderCell: false },
-      { content: 'Handover Science - "Communication That Saves Lives"' },
-      { content: 'Dr. Abhijeet' },
-      { content: '15 MIN' },
-    ],
-  },
-  {
-    isHeader: false,
-    cells: [
-      { content: '10.10-10.20 AM', isHeaderCell: false },
-      { content: 'Medicolegal Pearls – Operate safely, document wisely' },
+      { content: '09.45-09.55 AM', isHeaderCell: false },
+      { content: 'Medicolegal Pearls – Operate Safely, Document Wisely' },
       { content: 'Dr. B Y Praveen' },
       { content: '10 MIN' },
     ],
   },
   {
     isHeader: false,
+    cells: [ 
+      { content: '09.55-10.50 AM', isHeaderCell: false },
+      { content: 'Mastering the 1st 100 Days of CVTS-Be the Calm in the Chaos <br>Handover Science - "Communication That Saves Lives"' },
+      { content: 'Dr. Amaresh Rao' },
+      { content: '55 MIN' },
+    ],
+  },
+  {
+    isHeader: false,
     cells: [
-      { content: '10.20-10.30 AM', isHeaderCell: false },
+      { content: '10.50-11.00 AM', isHeaderCell: false },
       { content: 'Q &amp; A, FELICITATION', colSpan: 2 },
       { content: '10 MIN' },
     ],
@@ -100,9 +91,9 @@ export const day1Data = [
   {
     isHeader: false,
     cells: [
-      { content: '10.30-11.30 AM', isHeaderCell: false },
-      { content: 'INAUGURATION <br> Keynote Speech: Dr. Amaresh Rao Malempati (HOD, PROF)<br>CVTS, NIMS', isHeaderCell:true,colSpan: 2 },
-      {content: '60 MIN'}
+      { content: '11.00-11.30 AM', isHeaderCell: false },
+      { content: 'INAUGURATION <br> Keynote Speech: Dr. Amaresh Rao Malempati', isHeaderCell:true,colSpan: 2 },
+      {content: '30 MIN'}
     ],
   },
   {
@@ -117,8 +108,17 @@ export const day1Data = [
   {
     isHeader: false,
     cells:[
-      {content: '12.00-12.20 PM'},
-      {content: 'PRESENT PRACTICES AND FUTURE TRENDS IN MICS'},
+      {content: '12.00-12.30 PM'},
+      {content: 'How do I do: Coronary Anastomosis, Total Aerial Revascularization'},
+      {content: 'Dr. Prateek Bhatnagar'},
+      {content: '30 MIN'}
+    ]
+  },
+  {
+    isHeader: false,
+    cells:[
+      {content: '12.30-12.50 PM'},
+      {content: 'Present and Future Trends in MICS'},
       {content: 'Dr. Naresh'},
       {content: '20 MIN'}
     ]
@@ -126,16 +126,16 @@ export const day1Data = [
   {
     isHeader: false,
     cells:[
-      {content: '12.20-12.40 PM'},
-      {content: 'CAREER BUILDING IN THORACIC ORGAN TRANSPLANTATION'},
-      {content: 'Dr. Balasubramaniom'},
+      {content: '12.50-01.10 PM'},
+      {content: 'Career Building in Thoracic Organ Transplant'},
+      {content: 'Dr. Balasubramaniom <br>KR'},
       {content: '20 MIN'}
     ]
   },
   {
     isHeader: false,
     cells: [
-      { content: '12.40-12.45 PM', isHeaderCell: false },
+      { content: '01.10-01.15 PM', isHeaderCell: false },
       { content: 'Q &amp; A, FELICITATION', colSpan: 2 },
       { content: '5 MIN' },
     ],
@@ -143,7 +143,7 @@ export const day1Data = [
   {
     isHeader: false,
     cells: [
-      { content: '12.45-01.30 PM' },
+      { content: '01.15-02.00 PM' },
       { content: 'LUNCH BREAK',isHeaderCell:true, colSpan: 2 },
       {content:'45 MIN'}
     ],
@@ -165,7 +165,7 @@ export const day1Data = [
   {
     isHeader: false,
     cells: [
-      { content: '01.30-01.45 AM', isHeaderCell: false },
+      { content: '02.00-02.15 AM', isHeaderCell: false },
       { content: 'Management of Neonate in ICU' },
       { content: 'Dr. Nagarajan' },
       { content: '15 MIN' },
@@ -174,7 +174,7 @@ export const day1Data = [
   {
     isHeader: false,
     cells: [
-      { content: '01.45-02.00 PM', isHeaderCell: false },
+      { content: '02.15-02.30 PM', isHeaderCell: false },
       { content: 'Post-Op ICU Management Essentials- Your Vigilance Is Someone’s Survival' },
       { content: 'Dr. Poojitha' },
       { content: '15 MIN' },
@@ -183,7 +183,7 @@ export const day1Data = [
   {
     isHeader: false,
     cells: [
-      { content: '02.00-02.20 PM', isHeaderCell: false },
+      { content: '02.30-02.50 PM', isHeaderCell: false },
       { content: 'Ventilation & Hemodynamic Algorithms <br> “Seconds to Survival: Doing the Basics Right.”' },
       { content: 'Dr. Kavitha' },
       { content: '20 MIN' },
@@ -192,7 +192,7 @@ export const day1Data = [
   {
     isHeader: false,
     cells: [
-      { content: '02.20-02.35 PM', isHeaderCell: false },
+      { content: '02.50-03.05 PM', isHeaderCell: false },
       { content: 'RV Dysfunction - Early pick-up, early correction' },
       { content: 'Dr. Archana' },
       { content: '15 MIN' },
@@ -201,7 +201,7 @@ export const day1Data = [
   {
     isHeader: false,
     cells: [
-      { content: '02.35-02.50 PM', isHeaderCell: false },
+      { content: '03.05-03.20 PM', isHeaderCell: false },
       { content: 'Low Cardiac Output Syndrome – Prevention & rescue' },
       { content: 'Dr. Nitesh' },
       { content: '15 MIN' },
@@ -210,7 +210,7 @@ export const day1Data = [
   {
     isHeader:false,
     cells:[
-      {content: '02.50-03.00 PM', isHeaderCell: false},
+      {content: '03.20-03.30 PM', isHeaderCell: false},
       {content: 'Q &amp; A, FELICITATION', colSpan:2},
       {content: '10 MIN'}
     ]
@@ -221,48 +221,31 @@ export const day1Data = [
       {content: 'Sharpen the Mind. Strengthen the Hands. Steady the Heart <br> <span style="font-weight:normal;">Moderator: Dr. Prateek Bhatnagar</span>', colSpan:4}
     ]
   },
+  
   {
     isHeader:false,
     cells:[
-      {content: '03:30-04.00 PM', isHeaderCell: false},
-      {content: 'How I do Coronary Anastomosis'},
-      {content: 'Dr. Shubhi'},
-      {content: '30 MIN'}
-    ]
-  },
-  {
-    isHeader:false,
-    cells:[
-      {content: '04:00-06.00 PM', isHeaderCell: false},
-      {content: 'Coronary Workshop'},
+      {content: '03:30-06.00 PM', isHeaderCell: false},
+      {content: 'CORONARY WORKSHOP'},
       {content: 'Dr. Tribhuvan <br> Dr. Harshitha'},
-      {content: '120 MIN'}
+      {content: '150 MIN'}
     ]
   },
   {
     isHeader: true,
     cells:[
-      {content: 'DINNER SYMPOSIUM', colSpan:4}
+      {content: 'Dinner Symposium - At Mercure Hotel, Punjagutta', colSpan:4}
     ]
   },
   {
     isHeader:false,
     cells:[
-      {content: '07:00-07.40 PM', isHeaderCell: false},
-      {content: 'Mitral and Aortic Valve replacement'},
-      {content: 'Dr. Sai Surabhi'},
-      {content: '40 MIN'}
+      {content: '06:30-10.00 PM', isHeaderCell: false},
+      {content: 'Mitral and Aortic Valve replacement <br>Ways to excel in CVT surgery - A Roadmap for Residents'},
+      {content: 'Dr. Sai Surabhi <br> Dr. PSS Gopal'},
+      {content: '210 MIN'}
     ]
-  },
-  {
-    isHeader:false,
-    cells:[
-      {content: '08:00-08.20 PM', isHeaderCell: false},
-      {content: 'How to excel in CARDIOTHORACIC SURGERY'},
-      {content: 'Dr. PSS GOPAL'},
-      {content: '20 MIN'}
-    ]
-  },
+  }
 ]
   
   
@@ -350,7 +333,7 @@ export const day2Data = [
   {
     isHeader: true,
     cells: [
-      { content: 'WEBINAR SESSION', colSpan: 4 },
+      { content: 'WEBINAR SESSION <br> <span style="font-weight:normal;">(Moderator: Dr. Vishal</span> ', colSpan: 4 },
     ],
   },
   {
@@ -366,8 +349,8 @@ export const day2Data = [
     isHeader: false,
     cells:[
       {content: '08.50-09.20 AM', isHeaderCell: false},
-      {content: 'Transplant Team Dynamics and Protocols'},
-      {content: 'Dr. Vydehi'},
+      {content: 'Transplant- Heart and Lung Team Dynamics'},
+      {content: 'Dr. Vydehi Khaza'},
       {content: '30 MIN'}
     ]
   },
@@ -375,7 +358,7 @@ export const day2Data = [
     isHeader: false,
     cells:[
       {content: '09.20-09.50 AM', isHeaderCell: false},
-      {content: 'MICS and Robotic Cardiac Surgery'},
+      {content: 'MICS and Robotic Cardiac Surgery - The future.'},
       {content: 'Dr. Nitin Rajput'},
       {content: '30 MIN'}
     ]
@@ -384,14 +367,14 @@ export const day2Data = [
   {
     isHeader: true,
     cells: [
-      { content: 'PEDIATRIC CARDIAC SURGERY', colSpan: 4 },
+      { content: 'PEDIATRIC CARDIAC SURGERY <br> "Small Hearts, Big Responsibility"', colSpan: 4 },
     ],
   },
   {
     isHeader: false,
     cells:[
       {content: '10.00-10.20 AM', isHeaderCell: false},
-      {content: 'TOF- Timing and Choice of Surgery'},
+      {content: 'TOF- "Fixing Four Defects, One Heart" <br>Timing and Choice of Surgery'},
       {content: 'Dr. Razhane'},
       {content: '20 MIN'}
     ]
@@ -400,7 +383,7 @@ export const day2Data = [
     isHeader: false,
     cells:[
       {content: '10.20-10.35 AM', isHeaderCell: false},
-      {content: 'Pulmonary Hypertension'},
+      {content: 'Pulmonary Hypertension - "When Medicine meets Surgery"'},
       {content: 'Dr. Sudeep'},
       {content: '15 MIN'}
     ]
@@ -409,7 +392,7 @@ export const day2Data = [
     isHeader: false,
     cells:[
       {content: '10.35-10.55 AM', isHeaderCell: false},
-      {content: 'HOCM'},
+      {content: 'HOCM - Relieving Obstruction, Restoring Flow'},
       {content: 'Dr. Sanjeev Rao'},
       {content: '20 MIN'}
     ]
@@ -425,31 +408,22 @@ export const day2Data = [
   {
     isHeader: true,
     cells: [
-      { content: 'RECENT ADVANCES & PARADIGM SHIFTS', colSpan: 4 },
+      { content: 'RECENT ADVANCES & PARADIGM SHIFTS <br>"What has Chnages, What Matters Now" ', colSpan: 4 },
     ],
   },
   {
     isHeader: false,
     cells: [
       { content: '11.00-11.20 AM', isHeaderCell: false },
-      { content: 'AI-Enhanced Surgery – AI Is Not Replacing Surgeons — It’s Empowering Them ' },
-      { content: 'Dr. Arvind Muthirevula' },
-      { content: '15 MIN' }, 
+      { content: 'Surgeons Perspective on ERAS in Cardiac Surgery- FUTURE FAST TRACK ' },
+      { content: 'Dr. Gopichand Mannam' },
+      { content: '20 MIN' }, 
     ],
   },
   {
     isHeader: false,
     cells: [
       { content: '11.20-11.40 AM', isHeaderCell: false },
-      { content: 'ERAS in Cardiac Surgery – FUTURE FAST TRACK' },
-      { content: 'Dr. Gopichand Mannam / Dr. Saikiran' },
-      { content: '20 MIN' },
-    ],
-  },
-  {
-    isHeader: false,
-    cells: [
-      { content: '11.40-12.00 PM', isHeaderCell: false },
       { content: 'Hybrid Aorta Surgery' },
       { content: 'Dr. Kaladhar' },
       { content: '20 MIN' },
@@ -458,9 +432,27 @@ export const day2Data = [
   {
     isHeader: false,
     cells:[
-      {content: '12.00-12.10 PM', isHeaderCell: false},
+      { content: '11.40-11.50 AM', isHeaderCell: false },
+      { content: 'Role of Advanced haemostats and sealants in CVTS- industry talk' },
+      { content: 'Dr. Sai Surabhi' },
+      { content: '10 MIN' },
+    ]
+  },
+  {
+    isHeader: false,
+    cells: [
+      { content: '11.50-12.10 PM', isHeaderCell: false },
+      { content: 'AI-Enhanced Surgery – AI Is not replacing but empowering Surgeons' },
+      { content: 'Dr. Arvind Muthirevula' },
+      { content: '20 MIN' }, 
+    ],
+  },
+  {
+    isHeader: false,
+    cells:[
+      {content: '12.10-12.15 PM', isHeaderCell: false},
       {content: 'Q & A, Felicitation ', colSpan: 2},
-      {content: '10 MIN'}
+      {content: '5 MIN'}
     ]
   },
   {
@@ -472,8 +464,8 @@ export const day2Data = [
   {
     isHeader: false,
     cells:[
-      {content: '12.10-12.30 PM'},
-      {content: 'Learning curve in Robotic and VATS'},
+      {content: '12.15-12.35 PM'},
+      {content: 'Learning Curve in Robotic & VATS'},
       {content: 'Dr. Manjunatahan Bale'},
       {content: '20 MIN'}
     ]
@@ -481,7 +473,7 @@ export const day2Data = [
   {
     isHeader: false,
     cells:[
-      {content: '12.30-12.50 PM'},
+      {content: '12.35-12.55 PM'},
       {content: 'Trachea - The Rising Star'},
       {content: 'Dr. Arvind Muthirevula'},
       {content: '20 MIN'}
@@ -490,9 +482,9 @@ export const day2Data = [
   {
     isHeader: false,
     cells:[
-      {content: '12.50-01.00 PM', isHeaderCell: false},
+      {content: '12.55-01.00 PM', isHeaderCell: false},
       {content: 'Q & A, Felicitation ', colSpan: 2},
-      {content: '10 MIN'}
+      {content: '5 MIN'}
     ]
   },
   {
@@ -514,7 +506,7 @@ export const day2Data = [
     cells:[
       {content: '01.30-02.30 PM'},
       {content: 'PANEL DISCUSSION <br> "When Can I Become an Independent Surgeon ?" <br> Real Questions. Honest Answers. Clear Paths'},
-      {content: 'Dr. Amaresh Rao (Moderator) <br> Dr. Abachandra'},
+      {content: 'Dr. Amaresh Rao (Moderator) <br>Dr. Abachandra <br>DR. AGK Gokhale <br>Dr. Avinash Dal'},
       {content: '60 MIN'}
     ]
   },
@@ -522,8 +514,8 @@ export const day2Data = [
     isHeader: false,
     cells:[
       {content: '02.30-03.00 PM'},
-      {content: 'Heart Congenital Anatomy Demonstration'},
-      {content: ''},
+      {content: 'Heart: Congenital Anatomy Demonstration'},
+      {content: 'Dr. Ganapathy'},
       {content: '30 MIN'}
     ]
   },
@@ -531,7 +523,7 @@ export const day2Data = [
     isHeader: false,
     cells:[
       {content: '03.00-06.00 PM'},
-      {content: 'Workshop: Aortic and Mitral Valve, Transplant, Lobectomy'},
+      {content: 'WORKSHOP: Aortic and Mitral Valve, Transplant, Lobectomy, VATS'},
       {content: 'Dr. PSS Gopal <br> Dr. Kaladhar'},
       {content: '180 MIN'}
     ]

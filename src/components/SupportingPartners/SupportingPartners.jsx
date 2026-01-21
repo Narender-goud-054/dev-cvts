@@ -1,9 +1,5 @@
 const partners = [
     {
-        name: "Healthium",
-        logo: "./images/partners/healthium2.png"
-    },
-    {
         name:"SUN Pharmaceutical",
         logo:"./images/partners/sun.png"
     },

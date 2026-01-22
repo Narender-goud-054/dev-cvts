@@ -9,7 +9,7 @@ function Video({video}){
                 <img
                     src={video.thumbnail}
                     alt={video.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                     onError={(e) => {
                     e.target.style.display = 'none';
                     e.target.parentElement.innerHTML = '<div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-200 to-orange-200"><div class="text-center"><div class="text-4xl mb-2">📹</div><span class="text-gray-600">Video</span></div></div>';

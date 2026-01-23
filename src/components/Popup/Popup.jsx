@@ -16,7 +16,7 @@ const Popup = ({ open, onClose, title, date, buttonText, link }) => {
           {/* Close icon */}
           <button
             onClick={onClose}
-            className="absolute right-4 top-4 text-gray-400 hover:text-gray-600"
+            className="absolute right-4 top-4 text-gray-700 hover:text-gray-900"
             aria-label="Close popup"
           >
             ✕
@@ -25,25 +25,27 @@ const Popup = ({ open, onClose, title, date, buttonText, link }) => {
           {/* Content (row-based layout) */}
           <div className="flex flex-col gap-4">
 
-            {/* Title */}
-            <h2 className="text-lg font-medium text-gray-800">
-              {title}
-            </h2>
-
             {/* Date */}
-            <p className="text-2xl font-semibold text-gray-900">
+            <p className="text-2xl text-center font-semibold text-red-600">
               {date}
             </p>
 
+            {/* Title */}
+            <h2 className="text-lg font-medium text-gray-500">
+              {title}
+            </h2>
+
+            
+
             {/* Action button */}
-            <a
+            {/* <a
               href={link}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-flex w-fit rounded-md bg-blue-600 px-6 py-2 text-white hover:bg-blue-700"
             >
               {buttonText}
-            </a>
+            </a> */}
           </div>
 
         </div>

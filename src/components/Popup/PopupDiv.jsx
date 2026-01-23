@@ -6,8 +6,8 @@ function PopupDiv({isOpen,closeAction}) {
     <Popup
             open={isOpen}
             onClose={closeAction}
-            title="Last Date to Register"
-            date="23 January, 2026"
+            title="Registrations are no longer accepted for this event"
+            date="REGISTRATIONS CLOSED"
             buttonText="Register Now"
             link="https://forms.gle/PE4d5BJago9kuSnJ6"
     />

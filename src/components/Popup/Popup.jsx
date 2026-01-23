@@ -16,7 +16,7 @@ const Popup = ({ open, onClose, title, date, buttonText, link }) => {
           {/* Close icon */}
           <button
             onClick={onClose}
-            className="absolute right-4 top-4 text-gray-700 hover:text-gray-900"
+            className="absolute right-3 top-2 text-gray-700 hover:text-gray-900"
             aria-label="Close popup"
           >
             ✕
@@ -31,7 +31,7 @@ const Popup = ({ open, onClose, title, date, buttonText, link }) => {
             </p>
 
             {/* Title */}
-            <h2 className="text-lg font-medium text-gray-500">
+            <h2 className="text font-normal text-gray-500">
               {title}
             </h2>
 
